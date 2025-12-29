@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./Navbar.css";
-import logo from "../../Assets/divineLogo.png";
+import logo from "../../Assets/divineLogo.jpg";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(true);
   function handleMenu() {
