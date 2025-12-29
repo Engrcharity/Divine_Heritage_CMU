@@ -1,0 +1,68 @@
+.identity-section {
+  width: 100%;
+  padding: 80px 8%;
+  background-color: #f5f9f7; /* light, professional background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.identity-content {
+  max-width: 800px;
+  text-align: center;
+}
+
+.identity-content h2 {
+  font-size: 2.8rem;
+  color: #301616c7; /* cooperative green */
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.identity-content p {
+  font-size: 1.15rem;
+  color: #333;
+  line-height: 1.7;
+}
+.vision-mission {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 10px 20px;
+}
+
+.vision, .mission {
+  flex: 1;
+  min-width: 280px;
+  background: #472d2dc7;
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.vision h3, .mission h3 {
+    text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.vision p, .mission p {
+  line-height: 1.6;
+  color: #fff;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .identity-section {
+    padding: 60px 5%;
+  }
+
+  .identity-content h2 {
+    font-size: 2.2rem;
+  }
+
+  .identity-content p {
+    font-size: 1rem;
+  }
+}
